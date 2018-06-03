@@ -1,0 +1,244 @@
+#container {
+    overflow-x: auto;
+}
+
+input.Salary_input {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+input.Salary_input:focus {
+    background-color: rgb(199, 230, 173);
+}
+
+input.Salary_submit {
+    padding: 12px 20px;
+    margin: 8px 45px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: rgb(101, 224, 157);
+    width: 100px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    cursor: pointer;
+    background-color: #4CAF50;
+}
+
+th.Sortable:hover {
+    background-color: rgb(54, 216, 148);
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th.Actions_heading {
+    cursor: default;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.Row_button {
+    background-color: #4CAF50;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 25px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.enabled {
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.enabled:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+td.Buttons_row {
+    text-align: center;
+    width: 350px;
+}
+
+td.Name_row {
+    width: 550px;
+} 
+
+td.Cost_row {
+    width: 150px;
+} 
+
+td.Percents_row {
+    width: 150px;
+} 
+
+td.Group_row {
+    width: 150px;
+} 
+
+textarea.Edit_textarea,
+input.Edit_input,
+select.Edit_select {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid rgb(154, 215, 219);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea.Edit_textarea {
+    width: 100%;
+    resize: none;
+}
+
+input.Edit_input,
+select.Edit_select {
+    width: 50%;
+}
+
+button.Edit_button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.Edit_button:hover {
+    background-color: rgb(24, 122, 11);
+}
+
+div.Edit_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+}
+
+button.Save_button,
+button.Button_add_record {
+    width: 20%;
+    color: black;
+    background-color: rgb(36, 167, 228);
+    padding: 14px 20px;
+    border: 3px solid rgb(7, 126, 223);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button.Button_add_record {
+    margin: 8px 0;
+}
+
+button.Save_button {
+    margin: 8px 10px;
+}
+
+button.Save_button:hover,
+button.Button_add_record:hover {
+    background-color: rgb(59, 123, 207);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #ec8f8f;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.close {
+    color: rgb(107, 107, 107);
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input.Modal_input,
+select.Modal_select {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 20px 0;
+    border: 2px solid rgb(154, 215, 219);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+textarea.Modal_textarea {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 20px 0;
+    border: 2px solid rgb(154, 215, 219);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 80%;
+    resize: none;
+    height: 150px;
+}
+
+input.Modal_submit {
+    width: 50%;
+    background-color: rgb(76, 147, 175);
+    color: white;
+    padding: 14px 0;
+    margin: 16px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input.Modal_submit:hover {
+    background-color: rgb(71, 54, 219);
+}
